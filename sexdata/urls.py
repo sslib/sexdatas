@@ -22,4 +22,6 @@ urlpatterns = [
     url(r'^$', view.hello),
     url(r'^qb/', view.qb),
     url(r'^sa/', view.sa),
+    url(r'^signup/', view.signup),
+    url(r'^signin/', view.signin),
 ]
