@@ -17,3 +17,7 @@ def qb(request):
 def sa(request):
     # return HttpResponse("hello sexdata")
     return render(request, 'sa.html', contexts)
+def signup(request):
+    return HttpResponse("signup")
+def signin(request):
+    return HttpResponse("signin")
