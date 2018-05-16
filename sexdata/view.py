@@ -15,19 +15,19 @@ def qb(request):
 def sa(request):
     return render(request, 'sa.html', contexts)
 def signup(request):
-    return HttpResponse("signup")
+    return HttpResponse("Test：注册页面...")
 def signin(request):
-    return HttpResponse("signin")
+    return HttpResponse("Test：登录页面...")
 def actress(request):
-    return HttpResponse("actress")
+    return HttpResponse("Test：女忧页面...")
 def firm(request):
-    return HttpResponse("firm")
+    return HttpResponse("Test：片商页面...")
 def sort(request):
-    return HttpResponse("sort")
+    return HttpResponse("Test：类别页面...")
 def sale(request):
-    return HttpResponse("sale")
+    return HttpResponse("Test：优惠页面...")
 def rank(request):
-    return HttpResponse("rank")
+    return HttpResponse("Test：排行页面...")
 def api(request):
-    return HttpResponse("api")
+    return HttpResponse("Test：API页面...")
 
