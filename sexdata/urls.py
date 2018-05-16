@@ -24,4 +24,10 @@ urlpatterns = [
     url(r'^sa/', view.sa),
     url(r'^signup/', view.signup),
     url(r'^signin/', view.signin),
+    url(r'^actress/', view.actress),
+    url(r'^firm/', view.firm),
+    url(r'^sort/', view.sort),
+    url(r'^sale/', view.sale),
+    url(r'^rank/', view.rank),
+    url(r'^api/', view.api)
 ]
