@@ -19,11 +19,12 @@ from . import view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', view.hello),
+    url(r'^$', view.index),
     url(r'^qb/', view.qb),
     url(r'^sa/', view.sa),
     url(r'^signup/', view.signup),
     url(r'^signin/', view.signin),
+    url(r'^search', view.search),
     url(r'^actress/', view.actress),
     url(r'^firm/', view.firm),
     url(r'^sort/', view.sort),
