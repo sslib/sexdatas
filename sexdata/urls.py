@@ -24,7 +24,7 @@ urlpatterns = [
     url(r'^sa/', view.sa),
     url(r'^signup/', view.signup),
     url(r'^signin/', view.signin),
-    url(r'^search', view.search),
+    url(r'^search/', view.search),
     url(r'^actress/', view.actress),
     url(r'^firm/', view.firm),
     url(r'^sort/', view.sort),
